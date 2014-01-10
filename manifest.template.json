@@ -4,48 +4,72 @@
   "name": "Built-In Images",
   "description": "Images for the standard built-in tasks in Maestro",
   "author": "Doug Henderson <dhenderson@maestrodev.com>",
-  "version": "0.01",
   "type": "images",
-  "tags": ["maestro"],
-  "tasks": [{
-    "name": "fork compositions",
-    "tags": ["maestro", "fork", "schedule"],
-    "task":{
-      "image": "fork-multiple.png"
+  "tags": [
+    "maestro"
+  ],
+  "tasks": [
+    {
+      "name": "fork compositions",
+      "tags": [
+        "maestro",
+        "fork",
+        "schedule"
+      ],
+      "task": {
+        "image": "fork-multiple.png"
+      }
+    },
+    {
+      "name": "join compositions",
+      "tags": [
+        "maestro",
+        "fork",
+        "schedule"
+      ],
+      "task": {
+        "image": "join.png"
+      }
+    },
+    {
+      "name": "schedule",
+      "tags": [
+        "maestro",
+        "fork",
+        "schedule"
+      ],
+      "task": {
+        "image": "fork.png"
+      }
+    },
+    {
+      "name": "schedule multiple",
+      "tags": [
+        "maestro",
+        "fork",
+        "schedule"
+      ],
+      "task": {
+        "image": "fork-multiple.png"
+      }
+    },
+    {
+      "name": "confirmation",
+      "tags": [
+        "maestro",
+        "user",
+        "continue",
+        "pause"
+      ],
+      "task": {
+        "image": "confirm.png"
+      }
+    },
+    {
+      "name": "email",
+      "task": {
+        "image": "email.png"
+      }
     }
-  },
-  {
-    "name": "join compositions",
-    "tags": ["maestro", "fork", "schedule"],
-    "task":{
-      "image": "join.png"
-    }
-  },
-  {
-    "name": "schedule",
-    "tags": ["maestro", "fork", "schedule"],
-    "task":{
-      "image": "fork.png"
-    }
-  },
-  {
-    "name": "schedule multiple",
-    "tags": ["maestro", "fork", "schedule"],
-    "task":{
-      "image": "fork-multiple.png"
-    }
-  },
-  {
-    "name": "confirmation",
-    "tags": ["maestro", "user", "continue", "pause"],
-    "task":{
-      "image": "confirm.png"
-    }
-  },
-  {
-    "name": "email",
-    "task":{
-      "image": "email.png"
-    }
-  } ]
+  ]
 }
